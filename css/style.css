@@ -7,6 +7,7 @@
 .container1{
     background: #F9F9FA;
     padding: 20px;
+    text-align: center;
 }
 /*navigation bar*/
 nav {
@@ -54,15 +55,18 @@ nav > li > a {
     color: rgba(17, 22, 26, 0.5);
 }
 
-.heading {   
+.heading { 
+    padding-left: 10px;
     color: rgba(17, 22, 26, 0.7);
 }
 
-.tag {   
+.tag {  
+    padding: 10px;
     color: limegreen;
 }
 
-.tag1 {   
+.tag1 { 
+    padding: 10px;
     color: blue;
 }
 
@@ -73,6 +77,20 @@ nav > li > a {
 
 .para {   
     padding: 5px 10px;
+}
+
+.card-image {
+    width: 30%;
+    border-radius: 50%;
+    float: none;
+    margin: 0 10px 10px 10px;
+}
+.small {
+    display: block;
+}
+.big {
+    display: none;
+    
 }
 
 /*---------------------------*/
@@ -124,6 +142,7 @@ footer{
     padding: 10px;
     box-shadow: 10px 10px 15px 1px rgba(17, 22, 26, 0.2);
     margin: 0px 30px 30px 0;
+    text-align: center;
 }
 
 .elsewhere {
@@ -171,10 +190,27 @@ footer{
 @media(min-width: 768px) {
     .container1{
         width: 70%;
-        margin: 0 15%;        
+        margin: 0 15%; 
+        text-align: left;
+       
     }
     .container{
         width: 80%;
         margin: 0 10%;
+    }
+    .card-image {
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    margin: 0 10px 10px 0;
+    }
+    .small {
+        display: none;
+        float: right;
+                
+    }
+    .big {
+        display: block;
+        margin-left: 10px;
     }
 }
