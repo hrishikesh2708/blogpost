@@ -1,0 +1,68 @@
+
+
+/*card-view*/
+.card-view {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 20px;
+}
+
+.lsection {
+    border:1px solid rgba(17, 22, 26, 0.3);
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 15px 10px rgba(17, 22, 26, 0.2);
+}
+
+.rsection {
+    border:1px solid rgba(17, 22, 26, 0.3);
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 15px 10px rgba(17, 22, 26, 0.2);
+}
+
+.date {
+    font-size: 15px;
+    padding: 5px 10px;
+    color: rgba(17, 22, 26, 0.5);
+}
+
+.heading { 
+    padding-left: 10px;
+    color: rgba(17, 22, 26, 0.7);
+}
+
+.tag {  
+    padding: 10px;
+    color: limegreen;
+}
+
+.tag1 { 
+    padding: 10px;
+    color: blue;
+}
+
+.btn {   
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.para {   
+    padding: 5px 10px;
+}
+
+.card-image {
+    width: 30%;
+    border-radius: 50%;
+    float: none;
+    margin: 0 10px 10px 10px;
+}
+.small {
+    display: block;
+}
+.big {
+    display: none;
+    
+}
+
+/*---------------------------*/
